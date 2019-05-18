@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerInParent="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:lines="3"
+            android:textAlignment="center"
+            android:text="This is the Demonstration of Task 2. \n Click on the WhatsApp logo to take ScreenShot and Share to WhatsApp!"/>
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/logobox" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
