@@ -147,6 +147,9 @@ public class ProductListFragment extends Fragment {
 
     }
 
+
+
+
     public class RecycleAdapter_AddProduct extends RecyclerView.Adapter<RecycleAdapter_AddProduct.MyViewHolder> {
 
         Context context;
